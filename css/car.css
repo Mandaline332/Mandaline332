@@ -1,0 +1,237 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    text-align: center;
+    background-color: rgb(80, 78, 78);
+    background-image: url(../imgg/swedencar/5560.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+    background-attachment: fixed;
+    background-position: left;
+}
+
+.navbar h1 {
+    font-weight: bolder;
+    color: rgb(211, 131, 117);
+}
+
+.navbar nav ul {
+    list-style: none;
+}
+
+.navbar nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar nav ul li a:hover {
+    color: rgb(187, 72, 51);
+}
+
+.button {
+    color: aliceblue;
+    position: absolute;
+    bottom: 14pc;
+    left: 2pc;
+}
+
+.button .text {
+    color: rgb(211, 131, 117);
+}
+/* ou will get your dream car with us */
+.test::after{ content: "y|" ;
+    -webkit-animation-name: anime;
+            animation-name: anime;
+    -webkit-animation-duration: 7s;
+            animation-duration: 7s;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+@-webkit-keyframes anime {
+    0%{content: "y|";}
+    5%{content: "yo|";}
+    10%{content: "you will|"}
+    20%{content: "you will get|"}
+    30%{content: "you will get your|"}
+    40%{content: "you will get your dream |"}
+    50%{content: "you will get your dream car|"}
+    60%{content: "you will get your dream car with|"}
+    70%{content: "you will get your dream car with us|"}
+    80%{content: "you will get your dream |"}
+    90%{content: "you will get yo|"}
+    100%{content: "you|"}
+
+}
+@keyframes anime {
+    0%{content: "y|";}
+    5%{content: "yo|";}
+    10%{content: "you will|"}
+    20%{content: "you will get|"}
+    30%{content: "you will get your|"}
+    40%{content: "you will get your dream |"}
+    50%{content: "you will get your dream car|"}
+    60%{content: "you will get your dream car with|"}
+    70%{content: "you will get your dream car with us|"}
+    80%{content: "you will get your dream |"}
+    90%{content: "you will get yo|"}
+    100%{content: "you|"}
+
+}
+.button button {
+    padding: 10px 20px;
+}
+
+.button button:hover {
+    background-color: rgb(211, 131, 117);
+}
+.part1{width: 80%;
+margin: auto;
+text-align: center;
+}
+.part1 img{width: 200px;
+    height: 150px;
+border-radius: 50%;
+margin-left: 20px;}
+
+.part2 {
+    background-color: rgba(114, 117, 155, 0.904);
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+ .header {text-align: center;
+    background-color: #e2e3e9;
+font-style: italic;
+width: 95%;
+margin: auto;
+margin-top: 10px;}
+.header:hover{
+-webkit-animation-name: shadow;
+        animation-name: shadow;
+-webkit-animation-duration: 1s;
+        animation-duration: 1s;
+-webkit-animation-direction: alternate;
+        animation-direction: alternate;
+-webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+}
+@-webkit-keyframes shadow{
+    from{text-shadow: 2px 2px blue , 5px 3px blue;}
+}
+@keyframes shadow{
+    from{text-shadow: 2px 2px blue , 5px 3px blue;}
+}
+ h2 a{text-decoration: none;
+color: rgb(187, 72, 51);
+font-size: xx-large;}
+
+.car {
+    width: 30%;
+    position: relative;
+
+}
+
+.car img {
+    width: 100%;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s;
+    height: 69%;
+}
+
+.text1 {
+    position: absolute;
+    top: 100%;
+    height: 69%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    text-align: center;
+}
+
+.car .text1 .content {
+    position: relative;
+    top: 35%;
+}
+
+.car .text1 .content h4 {
+    font-weight: bolder;
+    color: white;
+    font-size: xx-large;
+}
+
+.car .text1 .content p {
+    color: white;
+}
+
+.car .text1 .content button {
+    padding: 10px 20px;
+}
+.car .text1 .content button:hover {background-color: rgb(187, 72, 51);;}
+
+.car:hover .text1{top: 0;}
+.Japan{background-color: #B4B4B8;}
+.Italia{background-color: #C7C8CC;
+}
+.Korea{background-color: #E3E1D9;}
+.sweed{background-color: #F2EFE5;
+padding-bottom: 4px;
+overflow: hidden;}
+form{text-align: center;}
+    /* background-color: #C7C8CC;} */
+form {
+margin-top: 10px;
+background-color: #e2e3e9;}
+form input{
+    width: 300px;
+    height: 40px;
+}
+.checkbox{width: 15px;
+height: 15px;}
+button{padding: 10px;}
+footer{display: -webkit-box;display: -ms-flexbox;display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+background-color: rgba(0, 0, 0, 0.6);}
+footer img {width: 70px;}
+.fa-brands{border: 1px solid;
+border-radius: 50%;
+padding: 10px;
+text-decoration: none;
+color: black;}
+.fa-brands:hover{background-color: black;
+color: white;}
+.list a{text-decoration: none;
+color: white;}
+.list a:hover {color:  rgb(187, 72, 51);}
+.list span{color: rgb(184, 31, 3);}
+.list ul{list-style: none;
+}
+.location{text-align: center;}
+/* background-color: #e2e3e9;} */
+.location h2{color: rgb(187, 72, 51);}
